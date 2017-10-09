@@ -14,8 +14,11 @@ client = UserVoice::Client.new(SUBDOMAIN_NAME, API_KEY, API_SECRET, :callback =>
 
 #Nuts and bolts of searching with date range
 today = Time.now.strftime("%Y-%m-%d")
-search_query = '-assignee:"Product Feedback","Leads","Rescue","A/R" /
-"created_start":"2016-11-01" "created_end":"#{today}" status:closed'
+##search_query = '-assignee:"Product Feedback","Leads","Rescue","A/R" /
+#{#}"created_start":"2016-11-01" "created_end":"#{today}" status:closed'
+
+search_query = 'assignee:john.rix@uservoice.com,joey.pilot@uservoice.com,claire@uservoice.com /
+"created_start":"2017-02-28" "created_end":"#{today}" status:closed'
 
 #print 'when to start (yyyy-mm-dd) dont get crazy: '
 #start_date = gets.chomp

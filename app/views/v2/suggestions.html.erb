@@ -1,0 +1,13 @@
+<h1 style="text-align: center;">UserVoice API V2</h1>
+
+<h2>All Suggestions:</h2>
+<p>
+	<ol>
+	<% @suggs.each do |key,value| %>
+<li><a href="<%= value %>" target="_blank"><%= key %></a></li>
+	<% end %>
+	<ol>
+</p>
+
+
+

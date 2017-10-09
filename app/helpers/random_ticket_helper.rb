@@ -1,0 +1,2 @@
+module RandomTicketHelper
+end
