@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    /* positions the label text beside the input */
+    text-align: right;
+}
+
+input[type=text], textarea {
+    border-color: orange;
+    border-style: inset;
+    border-width: 2px;
+    width: 30%;
+    margin: 1px 30% 0 4%;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+input[type=submit] {
+    display: inline-block;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    width: 30%;
+    margin: 1px 30% 0 4%;
+}
+
+body {
+    background-image: url("https://s3.amazonaws.com/uploads.uservoice.com/logo/design_setting/121/original/UserVoice-logo-light.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 65% 50%;
+}
