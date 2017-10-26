@@ -10,10 +10,9 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
 gem 'uservoice-ruby'
 gem 'json'
-
+gem 'pg'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.12'
   gem 'byebug',  '9.0.0', platform: :mri
 end
 
